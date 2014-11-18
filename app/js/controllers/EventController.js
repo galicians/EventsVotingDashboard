@@ -12,6 +12,17 @@ eventsApp.controller('EventController', function EventController($scope) {
         city: 'Montain View',
         province: 'CA'
       },
+      session: [
+        {
+            name: 'Directives Masterclass'
+        },
+        {
+            name: 'Scopes for fun'
+        },
+        {
+            name: 'Well Behaved Controllers'
+        }
+      ]
     }
   }
   );
