@@ -19,7 +19,7 @@ eventsApp.controller('EventController', function EventController($scope) {
               duration: '1 hr',
               level: 'Advanced',
               abstract: 'In this session you will lear the ins and outs of directives',
-              upVoteCount: 3
+              upVoteCount: 0
           },
           {
               name: 'Scopes for fun',
@@ -27,7 +27,7 @@ eventsApp.controller('EventController', function EventController($scope) {
               duration: '30 mins',
               level: 'Introductory',
               abstract: 'This session will take a closer look at scopes.',
-              upVoteCount: 1
+              upVoteCount: 0
           },
           {
               name: 'Well Behaved Controllers',
@@ -35,7 +35,7 @@ eventsApp.controller('EventController', function EventController($scope) {
               duration: '2 hours',
               level: 'intermediate',
               abstract: 'This session will take a closer look at Controllers.',
-              upVoteCount: 13
+              upVoteCount: 0
           }
         ]
       }
