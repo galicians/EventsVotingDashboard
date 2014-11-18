@@ -1,7 +1,7 @@
 'use strict'
 
 eventsApp.controller('EditEventController',
-    function EditEventController($scope) [
+    function EditEventController($scope) {}
 
-    ]
+
   )
