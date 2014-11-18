@@ -24,7 +24,7 @@
               <input id="eventName" type="text" placeholder="Name of your event..." />
               <label for="eventDate">Event Date:</label>
               <input id="eventDate" type="text" placeholder="format (mm/dd/yyyy)..." />
-              <lable for="eventTime">Event Time:</label>
+              <label for="eventTime">Event Time:</label>
               <input id="eventTime" type="text" placeholder="start and end time..." />
               <label for="eventLocation">Event Location:</label>
               <input id="eventLocation" type="text" placeholder="Address of event..." />
@@ -33,13 +33,15 @@
               <input id="eventProvince" type="text" class="input-samll" placeholder = "Province..." />
 
               <label for="eventImageUrl">Image:</label>
-              <input id="eventImageUrl">Image:</label>
-              <input id="eventImageUrl" type="Url" class="input-xlarge" placeholder ="Url of image..." />
+              <input id="eventImageUrl" type="url" class="input-xlarge" placeholder ="Url of image..." />
             </fieldset>
 
             <img ng-src="{{event.imageUrl}}" src="" />
             <br />
             <br />
+            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="button"  class="btn btn-default">Cancel</button>
+          </form>
 </div>
   <script src="/lib/jquery.min.js"></script>
   <script src="/lib/underscore-1.4.4.min.js"></script>
