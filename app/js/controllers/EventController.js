@@ -12,15 +12,30 @@ eventsApp.controller('EventController', function EventController($scope) {
         city: 'Montain View',
         province: 'CA'
       },
-      session: [
+      sessions: [
         {
-            name: 'Directives Masterclass'
+            name: 'Directives Masterclass',
+            creatorName: 'Pablo',
+            duration: '1 hr',
+            level: 'Advanced',
+            abstract: 'In this session you will lear the ins and outs of directives',
+            upVoteCount: 0
         },
         {
-            name: 'Scopes for fun'
+            name: 'Scopes for fun',
+            creatorName: 'Portabales',
+            duration: '30 mins',
+            level: 'Introductory',
+            abstract: 'This session will take a closer look at scopes.',
+            upVoteCount: 0
         },
         {
-            name: 'Well Behaved Controllers'
+            name: 'Well Behaved Controllers',
+            creatorName: 'makercoach',
+            duration: '2 hours',
+            level: 'intermediate',
+            abstract: 'This session will take a closer look at Controllers.',
+            upVoteCount: 0
         }
       ]
     }
