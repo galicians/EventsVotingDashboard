@@ -5,7 +5,7 @@ angular application.
 
 ### Running the application
 
-Open your command line to the root directory of the repository. node server.js
+Open your command line to the root directory of the repository. And then run: node server.js
 
 Then navigate your browser to `http://localhost:3000/<page>.html` to see the app running in
 your browser.  The port may be configured in the server.js file, app.set('port', process.env.PORT || 3000);
